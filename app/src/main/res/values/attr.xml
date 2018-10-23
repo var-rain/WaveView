@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <!-- 填充颜色 -->
+        <attr name="wv_fill_color" format="color" />
+        <!-- 波浪颜色 -->
+        <attr name="wv_wave_color" format="color" />
+        <!-- 描边颜色 -->
+        <attr name="wv_stroke_color" format="color" />
+        <!-- 文本颜色 -->
+        <attr name="wv_text_color" format="color" />
+        <!-- 速度 -->
+        <attr name="wv_speed" format="float" />
+        <!-- 密度 -->
+        <attr name="wv_density" format="integer" />
+        <!-- 反向波浪 -->
+        <attr name="wv_revert" format="boolean" />
+        <!-- 波浪大小 -->
+        <attr name="wv_wave_size" format="integer" />
+        <!-- 填充半径 -->
+        <attr name="wv_radius" format="integer" />
+        <!-- 描边宽度 -->
+        <attr name="wv_stroke_width" format="float" />
+        <!-- 文本 -->
+        <attr name="wv_text" format="string" />
+        <!-- 文字大小 -->
+        <attr name="wv_text_size" format="integer" />
+        <!-- 填充图片 -->
+        <attr name="wv_src" format="reference" />
+    </declare-styleable>
+</resources>

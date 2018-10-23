@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.var.wave.view.WaveView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:wv_density="3"
+        app:wv_fill_color="@color/wave_color"
+        app:wv_radius="30"
+        app:wv_revert="false"
+        app:wv_speed="3"
+        app:wv_src="@drawable/head"
+        app:wv_stroke_color="#ff5050"
+        app:wv_stroke_width="8"
+        app:wv_wave_color="@color/wave_color"
+        app:wv_wave_size="60" />
+
+</android.support.constraint.ConstraintLayout>
